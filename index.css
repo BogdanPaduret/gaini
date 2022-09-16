@@ -1,0 +1,123 @@
+/* general */
+body {
+    margin: 0px;
+    background-color: rgb(204, 204, 204)
+}
+
+/* header */
+nav {
+    background-color: black;
+    padding: 0.5% 0 0.5% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+.header {
+    text-decoration: none;
+    color: grey;
+}
+
+.title {
+    color: white;
+    display: inline-block;
+    margin-right: 55%;
+    text-transform: uppercase;
+
+}
+
+.home {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.experience {
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+/* main */
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: block;
+    width: 150px;
+    margin: 50px auto auto auto;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.logo-paragraph {
+    text-align: center;
+    background-color: black;
+    color: beige;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 175px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+header {
+    padding-top: 100px;
+    background-image: url(/pictures/main.png);
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+
+/* left section */
+.section {
+    display: inline-block;
+    vertical-align: top;
+    width: 39%;
+    background-color: white;
+    min-height: 350px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.first-section {
+    margin: 50px 2.5% 0 5%;
+    border-bottom: 10px solid purple;
+}
+
+.second-section {
+    margin: 50px 5% 0 2.5%;
+    border-bottom: 10px solid blue;
+}
+
+.buttons {
+    margin: auto;
+    width: 350px;
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-weight: normal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.html,
+.js,
+.rails {
+    background-color: steelblue;
+}
+
+.css,
+.ruby {
+    background-color: orange;
+}
